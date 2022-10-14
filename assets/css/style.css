@@ -10,7 +10,7 @@ header nav {
   margin: 0 auto;
 }
 
-header nav h1 {
+header nav h1  a{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
@@ -38,6 +38,11 @@ header nav button {
   color: #ffffff;
   cursor: pointer;
   margin-right: 3rem;
+  transition: 0.8s;
+}
+
+header nav button:hover{
+  background: linear-gradient(180deg, #5f71e7 0%, #527de2 100%);
 }
 
 main {
