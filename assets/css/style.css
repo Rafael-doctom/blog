@@ -6,12 +6,11 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 77%;
   margin: 0 auto;
 }
 
-header nav h1  a{
-  font-family: "Poppins";
+header nav h1 a {
   font-style: normal;
   font-weight: 800;
   font-size: 35px;
@@ -19,6 +18,8 @@ header nav h1  a{
   /* identical to box height */
 
   color: #1627c4;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 header nav button {
@@ -37,11 +38,11 @@ header nav button {
 
   color: #ffffff;
   cursor: pointer;
-  margin-right: 3rem;
+  margin-right: 3.40rem;
   transition: 0.8s;
 }
 
-header nav button:hover{
+header nav button:hover {
   background: linear-gradient(180deg, #5f71e7 0%, #527de2 100%);
 }
 
@@ -85,11 +86,13 @@ main input:focus {
   display: flex;
   width: 100%;
 }
+
 .link {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
+
 .link a {
   transition: all 0.15 ease;
   color: #8c98aa;
@@ -99,15 +102,123 @@ main input:focus {
   border-radius: 25px;
   margin-bottom: 5em;
   width: 6vw;
-  height: 38px;
+  height: 30px;
   text-align: center;
   margin-right: 1.55rem;
   padding-top: 0.44rem;
   transition: 0.8s;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .link a:hover {
   background: #3347c5;
   border-radius: 25px;
   color: white;
+}
+
+/* content */
+.content {
+  width: 77%;
+  margin: 1rem auto;
+}
+
+
+
+.content .popular {
+  display: flex;
+}
+
+.content .popular img {
+  width: 507px;
+  height: 372px;
+  border-radius: 25px;
+}
+
+
+.content .describe {
+  margin-left: 51px;
+  margin-top: 20px;
+
+}
+
+
+.content .describe span {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+
+
+  color: #46ADFA;
+}
+
+.content .describe h1 {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: #190F8B;
+  margin-top: 11px;
+  width: 622px;
+
+}
+
+.content .describe p {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #8C98AA;
+  margin-top: 24px;
+  width: 560px;
+
+}
+
+.content .describe .author {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  margin-top: 30px0;
+  justify-content: left;
+}
+
+.content .describe .author img {
+  width: 62px;
+  height: 62px;
+}
+
+.content .describe .author .description {
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+
+.content .describe .author .description h1 {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #190F8B;
+  display: block;
+  height: 10px;
+}
+
+.content .describe .author .description p {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8C98AA;
+  display: block;
+  height: 10px;
+
 }
